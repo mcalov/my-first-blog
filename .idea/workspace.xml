@@ -2,119 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92b35583-c2b2-4def-a855-cf6b369577f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BlogApp/blog/templates/blog/post_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogApp/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eineNeueWichtigeDatei" beforeDir="false" afterPath="$PROJECT_DIR$/eineNeueWichtigeDatei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/dia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/importFiles/writeSomeData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0003_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0004_auto_20200117_2223.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0009_remove_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0010_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0011_remove_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0012_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0013_remove_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0014_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0015_remove_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0016_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0017_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0018_delete_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0019_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0020_data_createddata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0021_delete_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0022_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0023_delete_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0024_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0025_innodata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0026_bip_bws_oekonomie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0027_auto_20200207_1945.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0028_auto_20200320_1709.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/migrations/0029_bip_einwohnerunit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/static/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/templates/blog/diagram.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/templates/blog/import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/templates/blog/importOK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/templates/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/blog/writeStuff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/file.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/media/images/file.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/media/images/name.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/media/images/no-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogApp/somePoints.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/BlogApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/BlogApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/blog/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/blog/views.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlogApp/BlogApp/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlogApp/BlogApp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="e#631#663#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlogApp/blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlogApp/blog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BlogApp/blog/templates/blog/post_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlogApp/blog/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eineNeueWichtigeDatei">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myvenv/Lib/site-packages/django/db/models/fields/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28350">
-              <caret line="2056" column="52" selection-start-line="2056" selection-start-column="52" selection-end-line="2056" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlogApp/blog/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,100 +60,52 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Time</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/BlogApp/BlogApp/settings.py" />
-        <option value="$PROJECT_DIR$/BlogApp/blog/models.py" />
-        <option value="$PROJECT_DIR$/BlogApp/blog/admin.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/eineNeueWichtigeDatei" />
-        <option value="$PROJECT_DIR$/BlogApp/BlogApp/urls.py" />
-        <option value="$PROJECT_DIR$/BlogApp/blog/urls.py" />
-        <option value="$PROJECT_DIR$/BlogApp/blog/views.py" />
-        <option value="$PROJECT_DIR$/BlogApp/blog/templates/blog/post_list.html" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1VhvGbaeROXLagAPeL24DHPtEmv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DjangoPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPro" type="462c0819:PsiDirectoryNode" />
-              <item name="BlogApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPro" type="462c0819:PsiDirectoryNode" />
-              <item name="BlogApp" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPro" type="462c0819:PsiDirectoryNode" />
-              <item name="BlogApp" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPro" type="462c0819:PsiDirectoryNode" />
-              <item name="BlogApp" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPro" type="462c0819:PsiDirectoryNode" />
-              <item name="BlogApp" type="462c0819:PsiDirectoryNode" />
-              <item name="BlogApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BlogApp" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cxd\Desktop\InnovationhubProject\DjangoPro\BlogApp\media" />
+      <recent name="C:\Users\cxd\Desktop\InnovationhubProject\DjangoPro\BlogApp\blog\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cxd\Desktop\InnovationhubProject\DjangoPro\BlogApp" />
+      <recent name="C:\Users\cxd\Desktop\InnovationhubProject\DjangoPro\BlogApp\blog\images" />
+      <recent name="C:\Users\cxd\Desktop\InnovationhubProject\DjangoPro\BlogApp\blog\media\images" />
+      <recent name="C:\Users\cxd\Desktop\InnovationhubProject\DjangoPro\BlogApp\blog" />
+      <recent name="C:\Users\cxd\Desktop\InnovationhubProject\DjangoPro\BlogApp\BlogApp" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -234,118 +122,36 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15068494" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32583067" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3290461" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BlogApp/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myvenv/Lib/site-packages/django/db/models/fields/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28350">
-          <caret line="2056" column="52" selection-start-line="2056" selection-start-column="52" selection-end-line="2056" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlogApp/blog/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlogApp/blog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eineNeueWichtigeDatei">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlogApp/BlogApp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlogApp/BlogApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlogApp/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlogApp/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlogApp/blog/templates/blog/post_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="183" key="#Vim_Emulation" timestamp="1584463659695">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Vim_Emulation/0.0.1920.1050@0.0.1920.1050" timestamp="1584463659695" />
+    <state x="739" y="268" key="FileChooserDialogImpl" timestamp="1580841518394">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="268" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1580841518394" />
+    <state x="461" y="168" key="SettingsEditor" timestamp="1584802775213">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1584802775213" />
+    <state x="655" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1584991033072">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="655" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584991033072" />
+    <state x="657" y="257" width="606" height="536" key="find.popup" timestamp="1579297683040">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="657" y="257" width="606" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1579297683040" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1577720631052">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577720631052" />
   </component>
 </project>

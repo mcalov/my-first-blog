@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <button id="butn1">Click me</button>
+    <div id="jsonContainer"></div>
+    <div id="chartContainer0" style="height: 370px; width: 50%;"></div>
+    <div id="chartContainer1" style="height: 370px; width: 50%;"></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <script type="text/javascript">
+        var rawJSONTableData = []; // Filled with objects of following type
+        // {
+        //   "Jahr": 2005,
+        //   "Landkreis": "Deutschland",
+        //   "BWSField": {
+        //     "id": 702,
+        //     "Einwohner": 52.9442607943854,
+        //     "Erwerbstaetiger": 25.2563881496633,
+        //     "ErwerbstaetigerLandForstFischerei": 23.6497005988024
+        //   },
+        //   "BIPField": {
+        //     "id": 704,
+        //     "Einwohner": 28288,
+        //     "Erwerbstaetiger": 58507
+        //   }
+        // }
+        getData = function () {
+            jQuery.getJSON("http://127.0.0.1:8000/data/", function (data) {
+                rawJSONTableData = data;
+            });
+        }
+        getData();
+        generateDiagram = function () {
+            var from = 2006;
+            var to = 2011;
+            var lkList = { 'Deutschland': {x:[],y:[]}, 'Brandenburg': {x:[],y:[]} };
+            var par = ['BWSField', 'Einwohner'];
+
+            lkListKeysArr = Object.keys(lkList);
+            len = rawJSONTableData.length;
+            for (idx = 0; idx < len; idx++) {
+                item = rawJSONTableData[idx];
+                sItem = item;
+                if (item.Landkreis in lkList) {
+                    if (item.Jahr >= from && item.Jahr <= to) {
+                        console.log("Ja geht rein");
+                        for (pidx = 0; pidx < par.length; pidx++) {
+                            sItem = sItem[par[pidx]];
+                        }
+                        lkList[item.Landkreis].x.push(item.Jahr);
+                        lkList[item.Landkreis].y.push(sItem);
+                    }
+                }
+            }
+            console.log(lkList);        
+            //         var trace1 = {   
+            //   x: [1, 2, 3, 4],
+            //   y: [10, 15, 13, 17],
+            //   type: 'line'
+            // };
+
+            createChart = function (theData, contID) { // theData 'Deutschland': { 'Deutschland': {x:[],y:[]}, 'Brandenburg': {x:[],y:[]} };
+                keyArr = Object.keys(theData);
+
+                dataArr = [];
+                keyArr.forEach(element => { 
+                    theData[element].type='line';
+                    theData[element].name=element;
+                    dataArr.push(theData[element]);
+                });
+                console.log(dataArr);
+                var layout = {
+                    title: "Durchschnittliche Pkw-Fahrzeit zum nächsten internationalen Flughafen",
+                    font:{size:8},
+                    xaxis: {
+                        title: 'Jahre'
+                    },
+                    yaxis: {
+                        title: "in Minuten",
+                        titlefont:{size:8} //par[par.length-1]
+                    }
+                };
+                TESTER = document.getElementById('chartContainer1');
+                Plotly.newPlot(TESTER,dataArr, layout);
+
+
+
+            }
+
+            createChart(lkList, "chartContainer0");
+
+
+        }
+
+        // var trace2 = {
+        //   x: [1, 2, 3, 4],
+        //   y: [16, 5, 11, 9],
+        //   type: 'line'
+        // };
+
+        // var data = [trace1, trace2];
+
+        //         Plotly.newPlot('chartContainer1', data, layout);
+
+
+
+        var el = document.getElementById("butn1");
+        el.addEventListener("click", generateDiagram);
+
+    </script>
+
+</body>
+
+</html>
